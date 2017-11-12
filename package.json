@@ -1,0 +1,31 @@
+{
+  "name": "json_rest_demo",
+  "version": "1.0.0",
+  "description": "simple demo for RESTful API with json format using node.js",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 index.js -o build/index.bundle.js",
+    "start": "http-server"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "JSON",
+    "NODE"
+  ],
+  "author": "Toni Haka-Risku",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "http-server": "^0.10.0",
+    "karma": "^1.7.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "random-name": "^0.1.2",
+    "body-parser": "^1.18.2"
+  }
+}
